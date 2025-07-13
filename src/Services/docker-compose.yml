@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  catalogdb2container:
+    image: postgres
+
+volumes:
+  postgres_catalog_volume:
+
